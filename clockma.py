@@ -29,3 +29,9 @@ while True:
         print('не годится')
     else:
         print('спасибо, слово "' + word + '" имеет длину', len(word))
+
+word1 = 'veni'
+word2 = 'vidi'
+word3 = 'vici'
+
+print(word1, word2, word3)
