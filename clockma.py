@@ -33,5 +33,9 @@ while True:
 word1 = 'veni'
 word2 = 'vidi'
 word3 = 'vici'
+word4 = '29\xb0Ц'
 
-print(word1, word2, word3)
+print(word1, word2, word3, sep=', ', end=' -> ')
+print(word4, end='')
+print('концерт группы \'Озон\'')
+print('управляющая \nпоследовательность \\n')
