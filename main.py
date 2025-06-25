@@ -49,3 +49,5 @@ value = int(input('Введи число: '))
 print('Число ', value, 'в степени 3 =', value ** 3)
 print('Квадратность от ', value, '=', int(value ** (1 / 3)))
 print('Квадратность от ', value, '=', round(value ** (1 / 3)))
+
+# добавили через гитхаб
