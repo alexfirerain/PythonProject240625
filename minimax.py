@@ -21,3 +21,15 @@ print(f'Среднее: {average}')
 print(f'Максимум: {max_n}')
 print(f'Минимум: {min_n}')
 
+##############
+
+def fake_check(coin_a, coin_b, coin_c):
+    if coin_a == coin_b:
+        return coin_c
+    if coin_a > coin_b:
+        return coin_c
+    else:
+        return coin_a
+
+print(fake_check(3, 2, 3))
+
